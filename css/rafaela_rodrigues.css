@@ -1,0 +1,332 @@
+:root{
+    --cor1: #990000;
+    --cor2: #ff5b00;
+    --cor3: #d4d925;
+    --cor4: #ffee63;
+    --cor5: #fff;
+    --cor6: #000;
+
+
+}
+
+
+footer{
+     margin-top: 80px;
+    background-color  : var(--cor4) ;
+}
+footer img{
+    width: 2vw;
+}
+
+.img-fluid{
+    height: 80px;
+}
+.p-index{
+  text-align: justify;
+}
+.carousel  {
+    height: 500px;
+    width: 100%;
+    overflow: hidden; 
+  }
+  
+  
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  
+  .carousel-inner {
+    width: 100%;
+  }
+  
+  .carousel-item {
+    width: 100%;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover; 
+  }
+  
+    .btn {
+        background-color: var(--cor1);
+        border: var(--cor1);
+    }
+    .img-container {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px; 
+        width: 100%;
+        max-width: 1200px; 
+        margin: 0 auto; 
+      }
+      
+      .img-animais {
+        width: 45%; 
+        height: 30%; 
+        box-sizing: border-box;
+      }
+
+      .p {
+        margin-top: 30px;
+        margin-left: 400px;
+        display: flex;
+        justify-content: center; 
+        text-align: center; 
+        width: 100%; 
+      }
+
+      .header-animais {
+        background-color: var(--cor2);
+        height: 300px;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+      }
+      
+      .h1-animais {
+        color: var(--cor5);
+        text-align: center;
+        margin: 0; 
+      }
+
+     
+  
+    
+    .h1-crianças {
+      color: var(--cor5); 
+      font-size: 3rem; 
+      margin: 0; 
+    }
+    
+    
+    .p-crianças {
+      margin-top: 30px;
+      margin-left: 400px;
+      display: flex;
+      justify-content: center; 
+      text-align: center; 
+      width: 100%;
+    }
+    
+    
+    .img-container {
+      display: flex;
+      justify-content: center; 
+      margin-bottom: 20px; 
+    }
+    
+    
+    .img-crianças {
+      width: 90%; 
+      height: 500px; 
+      display: block; 
+      margin-bottom: 20px; 
+      border-radius: 10px; 
+    }
+
+    .header-animais {
+      background-color: var(--cor3);
+      height: 300px;
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+    }
+    
+    .h1-animais {
+      color: var(--cor5);
+      text-align: center;
+      margin: 0; 
+    }
+    
+    .footer-animais{
+      background-color: var(--cor3);
+    }
+
+  
+    .header-sustentabilidade {
+    background-color: var(--cor2); 
+    height: 300px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    }
+
+    .h1-sustentabilidade {
+    color: var(--cor5); 
+    font-size: 3rem;
+    margin: 0; 
+    }
+
+
+  .p-sustentabilidade {
+      margin-top: 30px;
+      margin-left: 400px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    
+    
+    .img-container {
+      display: flex;
+      justify-content: center; 
+      margin-bottom: 20px; 
+    }
+    
+  
+    .img-sustentabilidade {
+      width: 50%; 
+      height: 500px; 
+      display: block;
+      margin-bottom: 25px; 
+      border-radius: 15%; 
+     margin-left: 30px;
+    }
+
+    
+  .p-sustentabilidade {
+      margin-top: 30px;
+      margin-left: 400px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    
+  
+    .img-sustentabilidade-container {
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+    }
+    
+    
+    .img-sustentabilidade {
+      width: 700px; 
+      height: 400px; 
+      object-fit: cover; 
+      margin-bottom: 20px; 
+    }
+    
+    
+    .text-sustentabilidade-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 20px; 
+    }
+    
+    
+    .text-sustentabilidade {
+      font-size: 16px;
+      color: var(--cor6);
+      line-height: 1.5;
+    }
+    
+    
+    .header-sustentabilidade {
+      height: 300px;
+      background-color: var(--cor1);
+      padding: 40px 0
+    }
+    
+    .h1-sustentabilidade {
+      color: var(--cor5);
+      text-align: center;
+      font-size: 36px;
+    }
+
+    .btn-cadastro{
+      background-color: var(--cor2);
+      color: var(--cor5);
+    }
+
+    .img-container {
+      display: flex;
+      gap: 50px; 
+    }
+    
+    .img-indigenas {
+      height: 300px;
+      width: 300px; 
+      max-width: 400px; 
+    }
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: space-between;
+}
+
+
+.card {
+  flex: 1 1 calc(33.33% - 20px); 
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+
+.card img {
+  width: 100%; 
+  height: auto; 
+  max-height: 150px; 
+  object-fit: cover;
+}
+
+
+.card .content {
+  flex-grow: 1; 
+  
+  margin-top: 15px;
+}
+
+.card .content p {
+  font-size: 14px;
+  color: var(--cor6);
+  line-height: 1.5;
+}
+
+
+.card .content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff7300;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.card .content button:hover {
+  background-color: #ff6600;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%; 
+  }
+}

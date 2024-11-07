@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Cadastro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/rafaela_rodrigues.css">
+  <style>
+    .card {
+      min-height: 550px; 
+      padding: 40px; 
+      background-color: #f4f4f4; 
+    }
+
+    
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+    }
+
+   
+    .btn-cadastro {
+      background-color: #ff4000;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .btn-cadastro:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo_ONG.png" alt="Logo da ONG" class="img-cadastro" style="height: 80px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://actionaid.org.br/doe-agora/como-doar/mude-uma-vida/?gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--3R89i5fcONVXXtZiytIJirW-x8NeVIAKKDITyNxEXHDHO72i-NRVxoCO9QQAvD_BwE">Quero Doar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cadastro.html">Cadastre-se</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Conheça algumas ONGS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./animais.html">Animais</a></li>
+                <li><a class="dropdown-item" href="./Sustentabilidade.html">Sustentabilidade</a></li>
+                <li><a class="dropdown-item" href="./criancas.html">Crianças</a></li>
+                <li><a class="dropdown-item" href="./indigenas.html">Povos indigenas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow">
+        <h2 class="text-center mb-4">Cadastro</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome completo</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+          </div>
+          <div class="mb-3">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+          </div>
+          <div class="mb-3">
+            <label for="confirmarSenha" class="form-label">Confirme sua senha</label>
+            <input type="password" class="form-control" id="confirmarSenha" placeholder="Confirme sua senha">
+          </div>
+          <button type="submit" class="btn btn-cadastro w-100">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
